@@ -1,15 +1,11 @@
-$BGCOLOR: u'#333';
-$WIDTH: 640;
-$HEIGHT:480;
-
-#body{
-    background: ${BGCOLOR};
-    text-align: center;
-    margin-top: 10%;
+#body {
+  background: u "#333";
+  text-align: center;
+  margin-top: 10%;
 }
 #videoCanvas {
-    /* Always stretch the canvas to 640x480, regardless of its
+  /* Always stretch the canvas to 640x480, regardless of its
     internal size. */
-    width: ${WIDTH}px;
-    height: ${HEIGHT}px;
+  width: 640px;
+  height: 480px;
 }
