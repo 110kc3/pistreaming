@@ -1,3 +1,7 @@
+$BGCOLOR: u'#333';
+$WIDTH: 640;
+$HEIGHT:480;
+
 #body{
     background: ${BGCOLOR};
     text-align: center;
